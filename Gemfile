@@ -29,7 +29,14 @@ gem 'spring',        group: :development
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'devise', '~> 3.4.1'
+gem 'cancancan', '~> 1.10.1'
 
+group :development do 
+  gem 'quiet_assets', '~> 1.1.0'
+  gem 'pry', '~> 0.10.1'
+  gem 'pry-byebug', '~> 3.0.1'
+  gem 'pry-rails', '~> 0.3.3'  
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
