@@ -17,3 +17,6 @@
 
 # ignore dotenv configuration
 .env
+
+# don't store uploaded images in git repo
+public/system/
