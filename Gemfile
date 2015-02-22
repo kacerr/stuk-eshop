@@ -30,6 +30,7 @@ gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'devise', '~> 3.4.1'
 gem 'cancancan', '~> 1.10.1'
+gem 'paperclip', '~> 4.2.1'
 
 group :development do 
   gem 'quiet_assets', '~> 1.1.0'
