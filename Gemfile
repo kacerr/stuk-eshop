@@ -32,6 +32,9 @@ gem 'devise', '~> 3.4.1'
 gem 'cancancan', '~> 1.10.1'
 gem 'paperclip', '~> 4.2.1'
 
+# i want dotenv everywhere is i might be using that on my own production server
+gem 'dotenv', '~> 1.0.2'
+
 group :development do 
   gem 'quiet_assets', '~> 1.1.0'
   gem 'pry', '~> 0.10.1'
