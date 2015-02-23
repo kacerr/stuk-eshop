@@ -31,6 +31,7 @@ gem 'simple_form'
 gem 'devise', '~> 3.4.1'
 gem 'cancancan', '~> 1.10.1'
 gem 'paperclip', '~> 4.2.1'
+gem 'friendly_id', '~> 5.1.0'
 
 # i want dotenv everywhere is i might be using that on my own production server
 gem 'dotenv', '~> 1.0.2'
